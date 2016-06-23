@@ -77,7 +77,7 @@ public class Client {
         while (scanner.hasNext()) {
             in = scanner.nextLine();
             if (in.equals("quit")) {
-                System.out.println("close channel.");
+                System.out.println("channel quit.");
                 future.channel().close();
                 break;
             }
